@@ -169,12 +169,21 @@ python -m venv .venv && source .venv/bin/activate
 
 4. Instale as dependências:
 
-```
+```bash
 pip install .
+```
+
+5. Crie as pastas de dados
+
+```bash
+mkdir data
+mkdir data/raw
+mkdir data/processed
+mkdir data/final
 ```
 
 5. Rode o ETL:
 
-```
+```bash
 python main.py
 ```
