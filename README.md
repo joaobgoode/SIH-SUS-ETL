@@ -187,3 +187,15 @@ mkdir data/final
 ```bash
 python main.py
 ```
+
+Alternativamenta, caso queira paralelizar o ETL, pode usar make
+
+```bash
+make -j
+```
+
+O make já cria as pastas necessárias, alem de oferecer uma possibilidade de limpeza dos dados antigos.
+
+```
+make clean
+```
